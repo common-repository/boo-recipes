@@ -1,0 +1,73 @@
+.share-buttons-cont {
+  padding: 1em 0;
+
+  .share-link-button {
+    padding: 8px 10px 4px;
+    margin-right: 3px;
+    //border: 1px solid #999999;
+    border-radius: 3px;
+    line-height: 1em;
+    background: #999999;
+    color: #fff !important;
+    margin-bottom: 6px;
+    text-decoration: none;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    display: grid;
+
+    &:hover {
+      background: #777777;
+      color: #ffffff;
+      border-color: #777777;
+
+    }
+
+    .share-icon {
+      padding: 0 4px;
+    }
+    //span {
+    //  display: flex;
+    //  flex: 1;
+    //
+    //  &.share-icon {
+    //    padding-right: 0.5em;
+    //  }
+    //
+    //}
+
+    &.facebook-share {
+      background-color: #3B5998;
+    }
+
+    &.twitter-share {
+      background-color: #1DA1F2;
+    }
+
+    &.linkedin-share {
+      background-color: #2274b9;
+    }
+
+    &.email-share {
+      background-color: #666666;
+    }
+
+    &.pinterest-share {
+      background-color: #bc0d1e;
+    }
+
+    &.google-plus-share {
+      background-color: #DD5144;
+    }
+
+  }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 568px) {
+  .share-buttons-cont {
+    .share-link-button {
+      min-width: 65px;
+    }
+  }
+}

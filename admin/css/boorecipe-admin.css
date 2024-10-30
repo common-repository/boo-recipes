@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.exopite-sof-section-header {
+    background: #808080 !important;
+}
+
+.ajax-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-top: 1rem;
+    padding: 1em;
+}
+
+.ajax-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    margin-top: 1rem;
+    padding: 1em;
+}
+
+select.regular-text option { color: green; }
+select.regular-text option[value="no"] { color: red; }
+select.regular-text option[value="yes"] { color: green; }
+select.regular-text:invalid { color: red; }
